@@ -1,0 +1,47 @@
+<?php
+  include('koneksi.php');
+  $hal = isset($_GET['p'])?$_GET['p']:'pendaftaran';
+  if($hal=="user"){
+    include('View/user.php');
+  }
+  if($hal=="dokter"){
+    include('View/dokter.php');
+  }
+  if($hal=="pasien"){
+    include('View/pasien.php');
+  }
+  if($hal=="poliklinik"){
+    include('View/poliklinik.php');
+  }
+  if($hal=="obat"){
+    include('View/obat.php');
+  }
+  if($hal=="resep"){
+    include('View/resep.php');
+  }
+  if($hal=="tindakan"){
+    include('View/tindakan.php');
+  }
+  if($hal=="dashboard"){
+    include('dashboard.php');
+  }
+  if($hal=="pendaftaran"){
+    include('View/pendaftaran.php');
+  }
+  if($hal=="rekammedis"){
+    include('View/rekammedis.php');
+  }
+  if($hal=="jadwaldokter"){
+    include('View/jadwaldokter.php');
+  }
+  if($hal=="pembayaran"){
+    include('View/pembayaran.php');
+  }
+  if($hal=="lpasien"){
+    include('View/datapasien.php');
+  }
+  if($hal=="ldokter"){
+    include('View/datadokter.php');
+  }
+  
+ ?>
