@@ -1,10 +1,10 @@
 # Sistem Informasi Manajemen Rumah Sakit (SIMRS)
 SIRS merupakan sebuah aplikasi sederhana berbasis website yang digunakan sebagai sistem informasi dalam manajemen data administrasi pada rumah sakit.
 ## Instalasi dan Setup
-- Download source code [disini](https://pages.github.com) atau clone: git clone [abc]
+- Download source code [disini](https://github.com/ltfhhanum/simrs.git) atau clone: git clone [https://github.com/ltfhhanum/simrs.git]
 - Simpan files source code di folder htdocs XAMPP
 - Buat dan import database.
-- Jalankan web dengan link [abc]
+- Jalankan web dengan localhost/simrs
 
 ## Login
 User: admin dan Password: admin
